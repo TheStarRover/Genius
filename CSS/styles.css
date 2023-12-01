@@ -500,7 +500,7 @@ ul {
 }
 
 .address-copyright {
-  color: #a18268;
+  color: var(--color-secondary-dark);
   font-size: 14px;
 }
 
@@ -544,6 +544,11 @@ ul {
   position: absolute;
   top: 40px;
   right: 40px;
+}
+
+.modal-text {
+  width: 100%;
+  text-align: center;
 }
 
 /* Form */
