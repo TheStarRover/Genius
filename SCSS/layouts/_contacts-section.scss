@@ -19,8 +19,13 @@
   }
 
   &__map {
-    flex-shrink: 0;
+    width: 100%;
     border: none;
     border-radius: 16px;
+  }
+
+  &__map,
+  &__form {
+    flex-grow: 1;
   }
 }
