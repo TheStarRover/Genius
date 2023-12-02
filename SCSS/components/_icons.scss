@@ -1,18 +1,15 @@
-.address-social {
-  display: flex;
-  gap: 22px;
-}
+.social {
+  &__list {
+    display: flex;
+    gap: 22px;
+  }
 
-.address-icon {
-  fill: var(--color-primary-light);
-  transition: fill 0.3s;
-}
+  &__icon {
+    fill: var(--color-primary-light);
+    transition: fill 0.3s;
+  }
 
-.address-icon:hover {
-  fill: var(--color-brand-normal);
-}
-
-.address-copyright {
-  color: var(--color-secondary-dark);
-  font-size: 14px;
+  &__icon:hover {
+    fill: var(--color-brand-normal);
+  }
 }

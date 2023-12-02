@@ -3,21 +3,14 @@
   text-decoration: none;
   text-align: center;
   transition: color 0.3s;
-}
 
-.link:hover {
-  color: var(--color-brand-normal);
-  text-decoration: none;
-}
+  &:hover {
+    color: var(--color-brand-normal);
+    text-decoration: none;
+  }
 
-.address-link {
-  color: var(--color-primary-light);
-  font-size: 16px;
-  font-weight: 300;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.address-link:hover {
-  color: var(--color-brand-normal);
+  &__address-link {
+    font-size: 16px;
+    font-weight: 300;
+  }
 }
